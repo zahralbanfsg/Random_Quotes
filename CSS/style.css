@@ -1,0 +1,43 @@
+body {
+  font-family: "Courgette", cursive;
+  background-color: #f4f1ea;
+}
+::selection {
+  color: white;
+  background-color: #59461b;
+}
+h1 {
+  color: #59461b;
+  font-size: 3rem;
+}
+.btn {
+  border: 1px solid #59461b;
+  box-shadow: 0 0 10px 0px #59461b;
+  color: #59461b;
+}
+.btn:hover {
+  border: 1px solid #59461b;
+  color: #59461b;
+}
+button:focus:not(:focus-visible) {
+  box-shadow: 0 0 20px 0px #59461b;
+  color: #59461b;
+}
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: #59461b;
+}
+
+p,
+span {
+  font-size: 2rem;
+  color: #59461b;
+}
+
+a {
+  font-size: 1rem;
+  color: #59461b;
+}
